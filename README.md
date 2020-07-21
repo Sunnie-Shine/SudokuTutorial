@@ -1,2 +1,2 @@
-# SudokuTutorial
-The sudoku tutorial (Maybe in Chinese).
+# Summary
+* [前言](README.md)
