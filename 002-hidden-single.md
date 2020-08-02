@@ -10,7 +10,7 @@
 
 下面我们来看一则示例。
 
-![](.gitbook/assets/01-gong-pai-chu-.png)
+![](.gitbook/assets/01-gong-pai-chu-%20%281%29.png)
 
 如图所示，观察b3，发现b3一共有四处空格。不过，可以观察到，数字8只有唯一一处可填位置r3c7。首先，r23c8不允许填8的原因是，r8c8是8，这样c8上的其它任意位置就不再允许填入数字8，当然也包括r23c8；同理，由于r4c9是8的缘故，这使得r2c9不能是8，毕竟r4c9和r2c9同列（同列不能出现两个相同数字）。
 
@@ -22,13 +22,13 @@
 
 ### 2-1 行排除（Hidden Single in Row）
 
-![](.gitbook/assets/02-hang-pai-chu-.png)
+![](.gitbook/assets/02-hang-pai-chu-%20%281%29.png)
 
 如图所示，可以观察r3，发现5的位置只能填入到r3c4。因为r3里只有r3c46两个单元格是空格。而r3c6不能填入5是因为r9c6是5，这使得c6里的其余任何位置都不能是数字5，当然也包括了处于r3上的r3c6。所以，r3c4 = 5。
 
 ### 2-2 列排除（Hidden Single in Column）
 
-![](.gitbook/assets/03-lie-pai-chu-.png)
+![](.gitbook/assets/03-lie-pai-chu-%20%281%29.png)
 
 如图所示，观察到c8里填入1的位置只有一处是不违背数独规则的：r2c8。其余的单元格都会违背规则，r1c8填1会和r1上的r1c6的数字1冲突；r5c8不能填入1的原因是，与此同宫的r6c9也是1；同样地，r7c8不能是1。所以最终填入1的位置被确定在了r2c8。
 

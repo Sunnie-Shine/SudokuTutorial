@@ -8,7 +8,7 @@
 
 ### 1-1 区块排除
 
-![](.gitbook/assets/01-gong-qu-kuai-lie-pai-chu-.png)
+![](.gitbook/assets/01-gong-qu-kuai-lie-pai-chu-%20%281%29.png)
 
 如图所示，可以看到，数字3在b6里只有两处位置可填：r4c78。其它的情况都通过宫排除给排除掉了。现在我们虽然无法确定r4c78里到底是谁填3，但是我们可以发现，它们既同宫又同行。那么根据数独的规则，我们可以确定，r4上填入的3也只可能是在r4c78里，别无其它选择（否则r4里但凡出现不是在r4c78的数字3，都会同时使得r4c78都不能填入3，然后b6就没办法填3了，于是就违背了数独规则，形成矛盾）。这便使得r4c1不可填入3。
 
@@ -22,7 +22,7 @@
 
 ### 1-2 区块唯一余数
 
-![](.gitbook/assets/02-gong-qu-kuai-wei-yi-yu-shu-.png)
+![](.gitbook/assets/02-gong-qu-kuai-wei-yi-yu-shu-%20%281%29.png)
 
 如图所示，我们可以通过宫排除可以直接得到r79c1形成关于2的宫区块结构。那么由于r79c1又是同列的结构，所以这就使得c1里填入2的位置也只能是r79c1里。那么，与之同列的r6c1就不能填2了。
 
@@ -36,13 +36,13 @@
 
 ### 2-1 行区块（Locked Candidates in Row）
 
-![](.gitbook/assets/03-hang-qu-kuai-lie-pai-chu-.png)
+![](.gitbook/assets/03-hang-qu-kuai-lie-pai-chu-%20%281%29.png)
 
 如图所示。观察r7，数字1的位置只有r7c46，于是r7c46\(1\)便形成了区块结构，恰好它们同宫的关系，使得r9c5 &lt;&gt; 1，所以，对c5使用列排除，发现r1c5是能填入数字1的唯一位置，故r1c5 = 1。
 
 ### 2-2 列区块（Locked Candidates in Column）
 
-![](.gitbook/assets/04-lie-qu-kuai-lie-pai-chu-.png)
+![](.gitbook/assets/04-lie-qu-kuai-wei-yi-yu-shu-.png)
 
 如图所示，我们通过细致的列排除后发现，r125c1都不能填入数字5。这样便使得c1填5的位置只有r46c1，于是r46c1形成了5的区块结构。
 
@@ -54,13 +54,13 @@
 
 ## Part 3 组合区块/级联区块（Cascading Locked Candidates）
 
-![](.gitbook/assets/05-zu-he-qu-kuai-1.png)
+![](.gitbook/assets/05-zu-he-qu-kuai-1%20%281%29.png)
 
 如图所示，这是一个关于数字6的列区块，因为区块的逻辑我们已经完全讲解过了，所以逻辑就自行理解了，这里着重阐述新视角。
 
 我们尝试着将区块的这一列转移到与之排除能排除到的两个宫b25，你就会发现，b25都恰好存在6的区块，且构成了矩形形状，如图所示。
 
-![](.gitbook/assets/06-zu-he-qu-kuai-2.png)
+![](.gitbook/assets/06-zu-he-qu-kuai-2%20%281%29.png)
 
 从这个示例可以发现，b2里r3c56\(6\)是一个宫区块，而b5里r6c56\(6\)也是一个宫区块，且它们构成了矩形形状。
 

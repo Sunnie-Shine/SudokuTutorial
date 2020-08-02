@@ -4,7 +4,7 @@
 
 ## Part 1 一则示例
 
-![](.gitbook/assets/01-wei-yi-yu-shu-.png)
+![](.gitbook/assets/01-wei-yi-yu-shu-%20%281%29.png)
 
 如图所示，仔细观察r6c9一格。数数r6c9能填哪些数字。数字1不行，原因是r7c9是1；数字2不行，原因是r1c9是2（或者你看r5c7和r6c5也可以）；数字3不行（r3c9）、数字4不行（r4c9）、数字5不行（r6c4）、数字6不行（r4c7或r6c6）、数字7不行（r6c3）、数字9也不行（r4c1）。
 
@@ -20,7 +20,7 @@
 
 为了更好地说明清楚我想要告诉给你的东西，这里我再给出一个例子。
 
-![](.gitbook/assets/02-guan-cha-.png)
+![](.gitbook/assets/02-wei-yi-yu-shu-de-guan-cha-.png)
 
 如图所示，请你先观察左图，如果把r3c1 = 8的结论去掉，你是否能看到它？
 
