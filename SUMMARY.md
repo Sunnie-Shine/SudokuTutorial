@@ -9,4 +9,7 @@
 * [第 6 讲：显性数组](006-naked-subsets.md)
 * [第 7 讲：复合结构技巧](007-complex-patterns.md)
 * [第 8 讲：候选数初步](008-candidate-introduction.md)
+* [第 9 讲：鱼不止可以吃，也可以当技巧用](untitled.md)
+* [第 10 讲：鱼的观察](untitled-1.md)
+* [第 11 讲：鱼鳍（一）：普通的鱼鳍](untitled-2.md)
 
