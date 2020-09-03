@@ -12,4 +12,5 @@
 * [第 9 讲：鱼不止可以吃，也可以当技巧用](009-normal-fish.md)
 * [第 10 讲：鱼的观察](010-how-to-find-fish.md)
 * [第 11 讲：鱼鳍（一）：普通的鱼鳍](011-fin-1-normal-fin.md)
+* [第 12 讲：带鱼鳍的鱼的观察](012-how-to-find-finned-fish.md)
 
